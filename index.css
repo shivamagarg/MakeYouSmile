@@ -1,0 +1,75 @@
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey';
+    background: linear-gradient(#E2C2FF,white);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    text-shadow: 0 0 1px black;
+}
+h2, h3, h4, p {
+    text-shadow: 0 0 1px white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#BAD1CD,lightyellow);
+    color: #462749;
+    width: 800px;
+    border: 5px solid #F2D1C9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #F2D1C9;
+    border-radius: 10px;
+    background-image: url("images/angryDaisy.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/hit1.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/do-this1.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/hit2.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/apology.gif");
+}
+
+#gift-img-sorry:hover {
+    background-image: url("images/sorry.gif");
+}
